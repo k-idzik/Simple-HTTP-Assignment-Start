@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "description": "Simple HTTP Server",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \\\"Tests complete\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-idzik/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Kevin Idzik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-idzik/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/k-idzik/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
